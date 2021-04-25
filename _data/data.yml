@@ -9,15 +9,14 @@ sidebar:
     # Profile information
     name: Estella Yixing Dong
     tagline: Statistician
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: estelladong729[at]gmail.com
-    phone: 012 345 6789
+    email: estelladong729☆gmail.com
+    phone: 
     website: estellad.github.io/online-cv #do not add http://
     linkedin: estella-dong
-    xing: estellad
-    github: sharu725
+    github: estellad
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
