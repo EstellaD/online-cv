@@ -3,119 +3,142 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Estella Yixing Dong
+    tagline: Statistician
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: estelladong729[at]gmail.com
     phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
+    website: estellad.github.io/online-cv #do not add http://
+    linkedin: estella-dong
+    xing: estellad
     github: sharu725
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@nalaotteristic'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Chinese
         level: Native
 
       - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+        level: Intermediate
+        
+      - idiom: French
+        level: Elementary
 
     interests:
-      - item: Climbing
+      - item: Statistical Bioinformatics
         link:
 
-      - item: Snowboarding
+      - item: Bayesian Methods
         link:
 
-      - item: Cooking
+      - item: Causal Inference
+        link:
+        
+      - item: Neurotechnology
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A biostatistician with broad interests in quantitative biomedical research and industry.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Biostatistics
+      university: University of Toronto
+      time: 2018 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Describe your study.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc in Statistics & Neuroscience
+      university: University of British Columbia
+      time: 2014 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Describe your study.
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Research Professional
+      time: 01.2020 - Present
+      company: Analysis Group - Department of Healthcare, Montreal
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+
+    - role: Biostatistics and Data Sciences Intern
+      time: 05.2019 - 12.2020
+      company: Roche - Department of Biostatistics and US Medical Affairs, Mississauga
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        • Reviewed protocols and conducted SAP/BAP for late phase oncology biomarker studies <br>
+        • Implemented exploratory RNA-seq functions and R shiny dashboard for HA submission <br> 
+        • Drafted proposal for integrating deep-learning-based imaging endpoints into clinical trial <br> 
+        • Developed a network analysis animation for real world drug use pattern recognition
+        
+    - role: Teaching Assistant
+      time: 01.2020 - 12.2020
+      company: University of Toronto - Department of Statistics, Toronto
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        • Lead tutorial sessions for Multivariate Data, Data Analysis II, and Elementary Statistics
+      
+    - role: Master Thesis Student Analyst
+      time: 09.2019 - 09.2020
+      company: Institute for Clinical Evaluative Sciences (ICES) - UofT, Toronto
+      details: |
+        • Proposed and conducted administrative pharmacoepidemiological data cleaning pipeline <br>
+        • Developed continuous-time causal inference algorithms
+        
+    - role: Statistical Consulting Practicum
+      time: 09.2018 - 05.2019
+      company: Princess Margaret Cancer Center - Department of Biostatistics, Toronto
+      details: |
+        • Performed multiple imputation and regularized regression for psychometric and radiomics data
+    
+    - role: Summer Research Fellowship
+      time: 07.2018 - 08.2018
+      company: École polytechnique fédérale de Lausanne (EPFL) - Brain Computer Interface Lab, Geneva
+      details: |
+        • Research on transfer learning in decoding EEG signals with convolutional neural networks <br>
+        • Gave talks and presented at the internal poster symposium
+      
+    - role: Machine Learning Algorithm Developer
+      time: 05.2017 - 05.2017
+      company: BC Cancer Research Center - Department of Integrative Oncology, Imaging Unit, Vancouver
+      details: |
+        • Automated cancer diagnosis by linking machine learning algorithms with software engines <br>
+        • Customized deep learning algorithms to classify breast/prostate H&E and Feulgen scan images
+      
+    - role: Research Assistant
+      time: 01.2017 - 05.2017
+      company: Danish Research Center for Magnetic Resonance (DRCMR), Copenhagen
+      details: |
+        • Established the ground truth simulation for a Bayesian framework on fMRI BOLD signals <br>
+        • Presented at the internal poster symposium
+    
+    - role: Teaching Assistant
+      time: 09.2016 - 04.2018
+      company: University of British Columbia - Department of Statistics, Vancouver
+      details: |
+        • Lead tutorial sessions for Elementary Statistics    
+        
+    - role: Data Analyst
+      time: 04.2016 - 08.2016
+      company: UBC Hospital - Department of Neurology, Vancouver
+      details: |
+        • Managing Alzheimer's, Multiple Sclerosis patient files <br>
+        • Provided data entry and summary statistics 
+        
 projects:
     title: Projects
     intro: >
@@ -188,4 +211,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>. Customized by Estella Dong.
