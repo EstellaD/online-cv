@@ -1,56 +1,9 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+There are a lot of things to be updated. Even a small typo would make the page fail to compile, so I want to document my customization process and make it slightly easier for someone who is reading this :D
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
-> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+# Initializaiton
+1. Fork the repo from [template](https://github.com/sharu725/online-cv), and without changing your forked repository name, or go to setting to change the github page to *master* branch, or deleting the *gh-pages* branch, your website should **already** be hosted automatically at https://YOURGITHUBUSERNAME.github.io/online-cv/. We can try to change your repo name and the website url later, but let's launch the website first. 
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://webjeda.com/online-cv/).
-
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
-
-## Installation
-
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository
-* Delete the `gh-pages` branch
-* Re-create the `gh-pages` branch
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at `https://username.github.io/online-cv/`
-
-Change all the details from one place: ``_data/data.yml``
-
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
-
-## Skins
-
-There are 6 color schemes available:
-
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/blue.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/turquoise.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/green.jpg" width="300"/> |
-
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
-
-## Credits
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+# Content Updates
+1. Go to *_data/data.yml*, and replace the contents in career profile, experience, and sidebar. 
+2. Change the CV theme to a color you like. There are six colors available: Blue, Turquoise, Green, Berry, Orange, Ceramic. For source code of these templates, you can find them at . For a quick preview of each theme, you can go to *assets/images/* for the *.jpg*. I personally will go with Berry :) There are two things you need to do to change the theme color. First, go to *assets/css/main.scss* and update the 'blue' in line 7 to 'berry'. Then, go to *_config.yml* and update 'theme_skin: blue' in line 9 to berry. 
+3. 
