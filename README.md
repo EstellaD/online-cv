@@ -50,10 +50,10 @@ I personally will go with Berry :sparkles:. There are two things you need to do 
 
 3. For project and publication title, decrease the font size a little bit to 15pt:
 
-   - .project-title {
+  - .project-title {
 	   font-size: 15px;
 
-   - .publication-title {
+  - .publication-title {
  	   font-size: 15px;
 
 4. Remove project-title color from project-title section:
