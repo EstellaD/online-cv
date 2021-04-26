@@ -5,6 +5,7 @@ There are a lot of things to be updated. Even a small typo would make the page f
 1. Fork the repo from [template](https://github.com/sharu725/online-cv), and without changing your forked repository name, or go to setting to change the github page to *master* branch, or deleting the *gh-pages* branch, your website should **already** be hosted automatically at https://username.github.io/online-cv. I used to be able to change the repo name and the website url, but it leads to compilation failure and it’s not working anymore. So let’s stick with the repo name of ‘online-cv’, and the url of ‘https://username.github.io/online-cv'. A small customization can be made is change the ‘title’ in *_config.yml* to your name’s resume. 
 ____________________________
 FYI what I used to do to change the repo name and self define a url. I think this could be submitted as an issue to the original repo owner. 
+
 2. Got to Settings, change your repo name to something you like, e.g. estella.github.io. Then:
 	a. change url to something you like, e.g. ‘http://estellad.github.io’ (This way you can define your own url)
 	b. change baseurl to repeat the url last part, which is also your repo name. e.g. ‘/estellad.github.io’
@@ -33,13 +34,13 @@ I personally will go with Berry :sparkles:. There are two things you need to do 
 ## Appearance
 1. If you want your sidebar to appear on the left side, make changes inside *_sass/_base.scss*:
 
-  a. change the position of sidebar to left
+  - change the position of sidebar to left
   .sidebar-wrapper {
 	  background: $theme-color;
 	  position: absolute;
 	  left: 0;
 
-  b. change the position of main-wrapper to padding to the left
+  - change the position of main-wrapper to padding to the left
   .main-wrapper {
 	  padding-left: 340px;
 
@@ -48,10 +49,10 @@ I personally will go with Berry :sparkles:. There are two things you need to do 
 		color: #3F4650;
 
 3. For project and publication title, decrease the font size a little bit to 15pt:
-   .project-title {
+   - .project-title {
 	   font-size: 15px;
 
-   .publication-title {
+   - .publication-title {
  	   font-size: 15px;
 
 4. Remove project-title color from project-title section:
@@ -68,9 +69,9 @@ In this part, we try to change how the files in *_inludes/.html* renders the inf
 
 1. Remove {% include skills.html %} from index.html, and also remove {% include projects.html %} for now. Project section can be used for adding R packages. 
 
-2. I want to bold all the sections on the online-cv website, so go in to each section html file to add ‘<b> … </b>’: career-profile.html, experiences.html, publication.html, conferences.html. Bold section header, and bold each role title. 
+2. I want to bold all the sections on the online-cv website, so go in to each section html file to add `<b> … </b>`: career-profile.html, experiences.html, publication.html, conferences.html. Bold section header, and bold each role title. 
 
-3. Simplify publication.html inner part to <div> title </div>, <div> author </div>, and <div> conference </div>.
+3. Simplify publication.html inner part to `<div> title </div>`, `<div> author </div>`, and `<div> conference </div>`.
 
 4. Add in {% include conferences.html %} to after publication. Create a conferences.html file in */_includes* folder, and the implement can follow publication.html exactly. 
 
@@ -84,7 +85,7 @@ In this part, we try to change how the files in *_inludes/.html* renders the inf
 ## The End
 Now you have a website like mine. It may look like an exact copy of Linkedin, but I like the minimalistic feeling and everything is all here. During the development of this repo, I referenced the style a lot from [here](https://github.com/CraigWangStat/CraigWangStat.github.io). However, his website is currently down due to the modified naming of repo issue I mentioned earlier. There are other small things to note:
 
-1. Currently you still carries all the historical version control messages from others who forked the original repo. Since this is your own website, to have a clean version, you can duplicate the entire repo and make it independent from the source. However, do add a license for the original author. 
+1. Currently you still carry all the historical version control messages from others who forked the original repo. Since this is your own website, to have a clean version, you can duplicate the entire repo and make it independent from the source. However, do add a license for the original author. 
 
 
 
