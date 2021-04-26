@@ -1,0 +1,28 @@
+{% assign conferences = site.data.data.conferences %}
+{% if publications %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+   <b> {{ conferences.title }} </b>
+  </h2>
+
+  {% if conferences.intro %}
+  <div class="intro">
+    {{ conferences.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for conference in conferences.assignments %}
+  <div class="item">
+      <div class="publication-title">{{ conference.title }}</div>
+      <div class="publication-authors">{{ conference.authors }}</div>
+      <div class="publication-conference">{{ conference.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
