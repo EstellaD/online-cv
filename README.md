@@ -49,6 +49,7 @@ I personally will go with Berry :sparkles:. There are two things you need to do 
 		color: #3F4650;
 
 3. For project and publication title, decrease the font size a little bit to 15pt:
+
    - .project-title {
 	   font-size: 15px;
 
