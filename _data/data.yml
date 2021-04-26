@@ -65,7 +65,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      A biostatistician with broad interests in quantitative biomedical research and industry.
+      A biostatistician with broad exposures to quantitative biomedical research and industry.
 education:
   - degree: MSc in Biostatistics
     university: University of Toronto
@@ -80,7 +80,7 @@ experiences:
       time: 01.2020 - Present
       company: Analysis Group - Department of Healthcare, Montreal
       details: |
-       Health Economics Outcome Research Consultant: <br>
+       Selected cases as a health economics outcome research consultant: <br>
         • Method development for assessing heterogeneous treatment effect in real world data <br>
         • Implement bootstrap testing in Python for a NLP-based classifier for legal documents <br>
         • Conduct analysis in SAS and R for retrospective hematology and ADHD chart review studies <br>
