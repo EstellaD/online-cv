@@ -7,7 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar # TODO: keep education always in sidebar
 
     # Profile information
-    name: Estella
+    name: Estella Yixing Dong
     tagline: Statistician
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -49,7 +49,7 @@ sidebar:
         level: Native
 
       - idiom: French
-        level: Elementary
+        level: Intermediate
         
       - idiom: Danish
         level: Elementary
