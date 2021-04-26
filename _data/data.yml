@@ -80,10 +80,10 @@ experiences:
       time: 01.2020 - Present
       company: Analysis Group - Department of Healthcare, Montreal
       details: |
-        •	Health Economics Outcome Research Consultant <br>
-        •	Method development for assessing heterogeneous treatment effect in real world data <br>
-        •	Implement bootstrap testing in Python for a (NLP)-based classifier for legal documents <br>
-        •	Conduct analysis in SAS and R for retrospective hematology and ADHD chart review studies <br>
+       Health Economics Outcome Research Consultant: <br>
+        • Method development for assessing heterogeneous treatment effect in real world data <br>
+        • Implement bootstrap testing in Python for a NLP-based classifier for legal documents <br>
+        • Conduct analysis in SAS and R for retrospective hematology and ADHD chart review studies <br>
 
 
     - role: Biostatistics and Data Sciences Intern
