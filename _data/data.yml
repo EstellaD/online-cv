@@ -7,14 +7,14 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar # TODO: keep education always in sidebar
 
     # Profile information
-    name: Estella Yixing Dong
+    name: Estella Yixing DONG
     tagline: Statistician
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: estelladong729☆gmail.com
     phone: 
-    website: estellad.github.io #do not add http://
+    website: estellad.github.io/online-cv #do not add http://
     linkedin: estella-dong
     github: estellad
     telegram: # add your nickname without '@' sign
