@@ -1,0 +1,22 @@
+{% assign softwareskills = site.data.data.sidebar.softwareskills %}
+{% if softwareskills %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    Software
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for software in softwareskills %}
+
+      {% if software.link %}
+      <li><a href="{{ software.link }}">{{ software.item }}</a></li>
+      {% else %}
+      <li>{{ software.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
