@@ -3,18 +3,18 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar # TODO: remove about.html from sidebar.html
+    education: True # set to False if you want education in main section instead of in sidebar # TODO: keep education always in sidebar
 
     # Profile information
-    name: Estella Yixing Dong
+    name: Estella
     tagline: Statistician
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: estelladong729☆gmail.com
     phone: 
-    website: estellad.github.io/online-cv #do not add http://
+    website: estellad.github.io #do not add http://
     linkedin: estella-dong
     github: estellad
     telegram: # add your nickname without '@' sign
@@ -24,6 +24,22 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    
+    softwareskills:  
+      - item: R, R Shiny, SAS, Matlab, Java
+        
+      - item: Python (Keras & Tensorflow)  
+      
+      - item: SQL, Git, Excel, Stata, Latex
+        
+    interests:  
+      - item: Statistical Bioinformatics
+
+      - item: Bayesian Methods
+
+      - item: Causal Inference
+        
+      - item: Neurotechnology
 
     languages:
       - idiom: English
@@ -33,48 +49,41 @@ sidebar:
         level: Native
 
       - idiom: French
-        level: Intermediate
-        
-      - idiom: French
         level: Elementary
-
-    interests:
-      - item: Statistical Bioinformatics
-        link:
-
-      - item: Bayesian Methods
-        link:
-
-      - item: Causal Inference
-        link:
         
-      - item: Neurotechnology
-        link:
+      - idiom: Danish
+        level: Elementary
+        
+    hobbies:  
+      - item: Architecture Photography
 
+      - item: Ballroom Dancing
+
+      - item: Hiking
+      
+      
 career-profile:
     title: Career Profile
     summary: |
       A biostatistician with broad interests in quantitative biomedical research and industry.
 education:
-    - degree: MSc in Biostatistics
-      university: University of Toronto
-      time: 2018 - 2020
-      details: |
-        Describe your study.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Statistics & Neuroscience
-      university: University of British Columbia
-      time: 2014 - 2018
-      details: |
-        Describe your study.
-          - Bullet point
-          - Bullet point
+  - degree: MSc in Biostatistics
+    university: University of Toronto
+    time: 2018 - 2020
+      
+  - degree: BSc in Statistics & Neuroscience
+    university: University of British Columbia
+    time: 2014 - 2018
+      
 experiences:
-    - role: Research Professional
+    - role: Research Professional, Health Economics Outcome Research Consultant
       time: 01.2020 - Present
       company: Analysis Group - Department of Healthcare, Montreal
       details: |
+        •	Method development for assessing heterogeneous treatment effect in real world data <br>
+        •	Implement bootstrap testing in Python for a (NLP)-based classifier for legal documents <br>
+        •	Conduct analysis in SAS and R for retrospective hematology and ADHD chart review studies <br>
+
 
     - role: Biostatistics and Data Sciences Intern
       time: 05.2019 - 12.2020
@@ -90,20 +99,20 @@ experiences:
       company: University of Toronto - Department of Statistics, Toronto
       details: |
         • Lead tutorial sessions for Multivariate Data, Data Analysis II, and Elementary Statistics
-      
-    - role: Master Thesis Student Analyst
+        
+    - role: Student Analyst
       time: 09.2019 - 09.2020
       company: Institute for Clinical Evaluative Sciences (ICES) - UofT, Toronto
       details: |
         • Proposed and conducted administrative pharmacoepidemiological data cleaning pipeline <br>
         • Developed continuous-time causal inference algorithms
-        
+
     - role: Statistical Consulting Practicum
       time: 09.2018 - 05.2019
       company: Princess Margaret Cancer Center - Department of Biostatistics, Toronto
       details: |
         • Performed multiple imputation and regularized regression for psychometric and radiomics data
-    
+      
     - role: Summer Research Fellowship
       time: 07.2018 - 08.2018
       company: École polytechnique fédérale de Lausanne (EPFL) - Brain Computer Interface Lab, Geneva
@@ -138,76 +147,35 @@ experiences:
         • Managing Alzheimer's, Multiple Sclerosis patient files <br>
         • Provided data entry and summary statistics 
         
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: TBD
+        authors: <u>Dong, Y.</u>, et al. 
+        conference: "TBD (2021)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      
+conferences:
+    title: Conferences
+    intro: >
+    
+    assignments:
+      - title: Lymphoma Microenvironment Deconvolution Links M1 Macrophage Infiltration to Clinical Outcome in Diffuse Large B-Cell Lymphoma
+        authors: Yan, M., Chang, Y., Raghavan, V., <u>Dong, Y.</u>, Klein, C., Nielsen T.G., Paulson, J.N., and Hatzi, K. (Oral Presentation)
+        conference: "American Society of Hematology, San Diego, United States / Virtual. (2020)"
+        
+      - title: Marginal Structural Models for Cumulative Exposure Effects in Pharmacoepidemiology
+        authors: <u>Dong, Y.</u>, Saarela, O. and Cadarette, S. (Oral Presentation)
+        conference: "Canadian Statistics Student Conference, Ottawa, Canada / Virtual. (2020)"
+        
+      - title: Computational Parametric Mapping for Neurometric Power Law Testing and Analysis for Experimental Design Efficiency
+        authors: <u>Dong, Y.</u> and Hulme, O. (Poster)
+        conference: "UBC Neuroscience Conference, Vancouver, Canada. (2018)"
 
-skills:
-    title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>. Customized by Estella Dong.
