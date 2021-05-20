@@ -106,7 +106,7 @@ experiences:
       company: Institute for Clinical Evaluative Sciences (ICES) - UofT, Toronto
       details: |
         • Proposed and conducted administrative pharmacoepidemiological data cleaning pipeline <br>
-        • Developed continuous-time causal inference algorithms
+        • Master thesis: developed continuous-time marked point processes algorithms
 
     - role: Statistical Consulting Practicum
       time: 09.2018 - 05.2019
@@ -153,9 +153,9 @@ publications:
     intro: |
     
     papers:
-      - title: TBD
-        authors: <u>Dong, Y.</u>, et al. 
-        conference: "TBD (2021)"
+      - title: Network Analysis Differentiates Responders and Non-Responders to Antidepressant Therapy
+        authors: <u>Dong, Y.</u>, Khoo, Y., Leng, X., Larsen, J., Lam, W.R., Milev R., Foster, J., Uher, R., Bhat, V., Lou, W., Kennedy, S.H. 
+        conference: "Frontiers in Psychiatry (2021) (Under Review)"
 
 
       
