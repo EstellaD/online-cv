@@ -76,15 +76,26 @@ education:
     time: 2014 - 2018
       
 experiences:
+    - role: Computational Scientist
+      time: 01.2022 - Present
+      company: Bayer - Department of Oncology Statistical Analysis, Mississauga
+      details: |
+        • TBD <br>
+        
+    - role: Open Source Volunteer Maintainer
+      time: 08.2021 - 12.2021
+      company: R Consortium – RStudio, Remote
+      details: |
+        • Merged pull requests to harmonize documentations and data source for the R package COVID19 Data Hub <br>
+        
     - role: Research Professional
-      time: 01.2020 - Present
+      time: 01.2021 - 12.2021
       company: Analysis Group - Department of Healthcare, Montreal
       details: |
        Selected cases as a health economics outcome research consultant: <br>
-        • Method development for assessing heterogeneous treatment effect in real world data <br>
-        • Implement bootstrap testing in Python for a NLP-based classifier for legal documents <br>
-        • Conduct analysis in SAS and R for retrospective hematology and ADHD chart review studies <br>
-
+        • Used random survival forest to predict the remission of rare disease <br>
+        • Proposed and implemented R workflows to automate data quality check and outreaching <br>
+        • Used IPTW to construct external control cohorts for Phase I/II trials <br>
 
     - role: Biostatistics and Data Sciences Intern
       time: 05.2019 - 12.2020
@@ -153,9 +164,9 @@ publications:
     intro: |
     
     papers:
-      - title: Network Analysis Differentiates Responders and Non-Responders to Antidepressant Therapy
-        authors: <u>Dong, Y.</u>, Khoo, Y., Leng, X., Larsen, J., Lam, W.R., Milev R., Foster, J., Uher, R., Bhat, V., Lou, W., Kennedy, S.H. 
-        conference: "Frontiers in Psychiatry (2021) (Under Review)"
+      - title: TBD
+        authors: <u>Dong, Y.</u>, TBD 
+        conference: "TBD"
 
 
       
