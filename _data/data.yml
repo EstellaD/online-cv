@@ -67,6 +67,10 @@ career-profile:
     summary: |
       A biostatistician with broad exposures to quantitative biomedical research and industry.
 education:
+  - degree: PhD in Quantitative Biology
+    university: University of Lausanne
+    time: 2022 - 2025
+
   - degree: MSc in Biostatistics
     university: University of Toronto
     time: 2018 - 2020
@@ -76,11 +80,22 @@ education:
     time: 2014 - 2018
       
 experiences:
-    - role: Computational Scientist
-      time: 01.2022 - Present
-      company: Bayer - Department of Oncology Statistical Analysis, Mississauga
+    - role: Doctoral Research Assistant
+      time: 09.2022 - Present
+      company: CHUV - Biomedical Data Science Center, Lausanne
       details: |
         • TBD <br>
+
+    - role: Computational Scientist
+      time: 01.2022 - 08.2022
+      company: Bayer - Department of Oncology Statistical Analysis, Mississauga
+      details: |
+        • Project lead for R for Submission. Proposed and managed the overall project scope and timeline for two sub-projects:
+            • Sub-project 1: adopting pharmaverse R package admiral to derive ADaM domains in a Bayer study
+            • Sub-project 2: building a R & Shiny pipeline to derive and cross validate TLFs
+        • Designed and implemented templates and functions that streamlined the automation of AE reporting in a Shiny app
+        • Drafted internal developer's bookdown guide
+        • Assist other R initiatives in the department and in several industry-wide working groups
         
     - role: Open Source Volunteer Maintainer
       time: 08.2021 - 12.2021
