@@ -91,8 +91,8 @@ experiences:
       company: Bayer - Department of Oncology Statistical Analysis, Mississauga
       details: |
         • Initiated and managed the overall project scope and timeline for two sub-teams: <br>
-            1. Linked SDTM to ADaM by adopting admiral R package to a Bayer study <br>
-            2. Linked ADaM to TLFs by a R & Shiny cross-validation pipeline <br>
+        1. Linked SDTM to ADaM by adopting admiral R package to a Bayer study <br>
+        2. Linked ADaM to TLFs by a R & Shiny cross-validation pipeline <br>
         
         • Designed templates that streamlined the automation of AE reporting in CSR <br>
         • Drafted internal developer's bookdown guide <br>
