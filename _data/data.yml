@@ -65,7 +65,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      A biostatistician with broad exposures to quantitative biomedical research and industry.
+      A biostatistician with broad experience to quantitative biomedical research and industry.
 education:
   - degree: PhD in Quantitative Biology
     university: University of Lausanne
@@ -84,7 +84,7 @@ experiences:
       time: 09.2022 - Present
       company: CHUV - Biomedical Data Science Center, Lausanne
       details: |
-        • TBD <br>
+        • Focusing on spatial transcriptomics, single-cell RNA-seq, proteomics, and Bayesian methods. <br>
 
     - role: Computational Scientist
       time: 01.2022 - 08.2022
